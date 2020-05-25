@@ -1,0 +1,68 @@
+.EditTodoForm-Container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 5px auto;
+    align-items: center;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.EditTodo-Check {
+    width: 10%;
+    text-align: center;
+}
+
+.EditTodoForm {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.EditTodoForm-Input {
+    padding: 0px 5px;
+    overflow: scroll;
+    text-decoration: none;
+    border: none;
+    width: 210px;
+    height: 19px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safar and Opera */
+.EditTodoForm-Input {
+    -ms-overflow-style: none;
+  }
+
+  /* Hide scrollbar for IE and Edge */
+
+.EditTodoForm-Input::-webkit-scrollbar {
+    display: none;
+  }
+
+.EditTodoForm-Input:focus {
+    outline: none;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.EditTodoForm-Button {
+    width: 60px;
+    border: none;
+    font-size: 16px;
+}
+
+.EditTodoForm-Button:focus {
+    outline: none;
+}
+
+.EditTodoForm-Button:hover {
+    color: #5cb85c;
+    cursor: pointer;
+}
