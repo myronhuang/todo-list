@@ -1,4 +1,15 @@
 .Todos {
-    height: 420px;
+    height: 75vh;
     overflow-y: scroll;
 }
+
+/* Hide scrollbar for Chrome, Safar and Opera */
+.Todost {
+    -ms-overflow-style: none;
+  }
+
+  /* Hide scrollbar for IE and Edge */
+
+.Todos::-webkit-scrollbar {
+    display: none;
+  }

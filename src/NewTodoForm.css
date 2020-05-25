@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     align-content: stretch ;
     background-color: rgba(112,112,112,0.9);
+    padding: 0;
 }
 
 form > * {
